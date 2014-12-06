@@ -10,10 +10,16 @@
 		1A0530CD19C4FD460004B7B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0530CC19C4FD460004B7B6 /* main.m */; };
 		1A0530D019C4FD460004B7B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0530CF19C4FD460004B7B6 /* AppDelegate.m */; };
 		1A0530D319C4FD460004B7B6 /* InstaZoom3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A0530D119C4FD460004B7B6 /* InstaZoom3.xcdatamodeld */; };
-		1A0530D619C4FD460004B7B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0530D519C4FD460004B7B6 /* ViewController.m */; };
 		1A0530D919C4FD460004B7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0530D719C4FD460004B7B6 /* Main.storyboard */; };
 		1A0530DB19C4FD460004B7B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0530DA19C4FD460004B7B6 /* Images.xcassets */; };
 		1A0530E719C4FD460004B7B6 /* InstaZoom3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0530E619C4FD460004B7B6 /* InstaZoom3Tests.m */; };
+		1A0530F419C4FED20004B7B6 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0530F119C4FED20004B7B6 /* PhotosViewController.m */; };
+		1A0530F519C4FED20004B7B6 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0530F319C4FED20004B7B6 /* PhotoCell.m */; };
+		1A53027219C637F1002A5BFE /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53027119C637F1002A5BFE /* PhotoController.m */; };
+		1A53027519C63AA4002A5BFE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53027419C63AA4002A5BFE /* DetailViewController.m */; };
+		1A53027819C63F16002A5BFE /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53027719C63F16002A5BFE /* PresentDetailTransition.m */; };
+		1A53027B19C642D3002A5BFE /* DismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53027A19C642D3002A5BFE /* DismissDetailTransition.m */; };
+		BEA8029FA5AA4E298BB77E87 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B49ACBBA394AEEB7A3BF5A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +39,26 @@
 		1A0530CE19C4FD460004B7B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A0530CF19C4FD460004B7B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A0530D219C4FD460004B7B6 /* InstaZoom3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaZoom3.xcdatamodel; sourceTree = "<group>"; };
-		1A0530D419C4FD460004B7B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A0530D519C4FD460004B7B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1A0530D819C4FD460004B7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A0530DA19C4FD460004B7B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A0530E019C4FD460004B7B6 /* InstaZoom3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaZoom3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0530E519C4FD460004B7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0530E619C4FD460004B7B6 /* InstaZoom3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaZoom3Tests.m; sourceTree = "<group>"; };
+		1A0530F019C4FED20004B7B6 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		1A0530F119C4FED20004B7B6 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		1A0530F219C4FED20004B7B6 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		1A0530F319C4FED20004B7B6 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		1A0530F819C503600004B7B6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A53027019C637F1002A5BFE /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		1A53027119C637F1002A5BFE /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		1A53027319C63AA4002A5BFE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1A53027419C63AA4002A5BFE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1A53027619C63F16002A5BFE /* PresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailTransition.h; sourceTree = "<group>"; };
+		1A53027719C63F16002A5BFE /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
+		1A53027919C642D3002A5BFE /* DismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissDetailTransition.h; sourceTree = "<group>"; };
+		1A53027A19C642D3002A5BFE /* DismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransition.m; sourceTree = "<group>"; };
+		40B49ACBBA394AEEB7A3BF5A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68B85DD21884527B17E32CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA8029FA5AA4E298BB77E87 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +83,12 @@
 		1A0530BE19C4FD460004B7B6 = {
 			isa = PBXGroup;
 			children = (
+				1A0530F819C503600004B7B6 /* Podfile */,
 				1A0530C919C4FD460004B7B6 /* InstaZoom3 */,
 				1A0530E319C4FD460004B7B6 /* InstaZoom3Tests */,
 				1A0530C819C4FD460004B7B6 /* Products */,
+				F68B85DD21884527B17E32CD /* Pods.xcconfig */,
+				35F375E2192447C892FA8A3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +106,18 @@
 			children = (
 				1A0530CE19C4FD460004B7B6 /* AppDelegate.h */,
 				1A0530CF19C4FD460004B7B6 /* AppDelegate.m */,
-				1A0530D419C4FD460004B7B6 /* ViewController.h */,
-				1A0530D519C4FD460004B7B6 /* ViewController.m */,
+				1A0530F019C4FED20004B7B6 /* PhotosViewController.h */,
+				1A0530F119C4FED20004B7B6 /* PhotosViewController.m */,
+				1A0530F219C4FED20004B7B6 /* PhotoCell.h */,
+				1A0530F319C4FED20004B7B6 /* PhotoCell.m */,
+				1A53027019C637F1002A5BFE /* PhotoController.h */,
+				1A53027119C637F1002A5BFE /* PhotoController.m */,
+				1A53027319C63AA4002A5BFE /* DetailViewController.h */,
+				1A53027419C63AA4002A5BFE /* DetailViewController.m */,
+				1A53027619C63F16002A5BFE /* PresentDetailTransition.h */,
+				1A53027719C63F16002A5BFE /* PresentDetailTransition.m */,
+				1A53027919C642D3002A5BFE /* DismissDetailTransition.h */,
+				1A53027A19C642D3002A5BFE /* DismissDetailTransition.m */,
 				1A0530D719C4FD460004B7B6 /* Main.storyboard */,
 				1A0530DA19C4FD460004B7B6 /* Images.xcassets */,
 				1A0530D119C4FD460004B7B6 /* InstaZoom3.xcdatamodeld */,
@@ -119,6 +152,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		35F375E2192447C892FA8A3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40B49ACBBA394AEEB7A3BF5A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A0530EA19C4FD460004B7B6 /* Build configuration list for PBXNativeTarget "InstaZoom3" */;
 			buildPhases = (
+				640A130F640647CDB700BE0F /* Check Pods Manifest.lock */,
 				1A0530C319C4FD460004B7B6 /* Sources */,
 				1A0530C419C4FD460004B7B6 /* Frameworks */,
 				1A0530C519C4FD460004B7B6 /* Resources */,
+				CE59406280C245588E8F4290 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,15 +256,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		640A130F640647CDB700BE0F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE59406280C245588E8F4290 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A0530C319C4FD460004B7B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0530F519C4FED20004B7B6 /* PhotoCell.m in Sources */,
 				1A0530D019C4FD460004B7B6 /* AppDelegate.m in Sources */,
+				1A53027219C637F1002A5BFE /* PhotoController.m in Sources */,
+				1A53027819C63F16002A5BFE /* PresentDetailTransition.m in Sources */,
 				1A0530CD19C4FD460004B7B6 /* main.m in Sources */,
-				1A0530D619C4FD460004B7B6 /* ViewController.m in Sources */,
+				1A53027B19C642D3002A5BFE /* DismissDetailTransition.m in Sources */,
+				1A0530F419C4FED20004B7B6 /* PhotosViewController.m in Sources */,
 				1A0530D319C4FD460004B7B6 /* InstaZoom3.xcdatamodeld in Sources */,
+				1A53027519C63AA4002A5BFE /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,23 +414,29 @@
 		};
 		1A0530EB19C4FD460004B7B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68B85DD21884527B17E32CD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = InstaZoom3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1A0530EC19C4FD460004B7B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68B85DD21884527B17E32CD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = InstaZoom3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -366,6 +453,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = InstaZoom3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,6 +470,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = InstaZoom3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +497,7 @@
 				1A0530EC19C4FD460004B7B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0530ED19C4FD460004B7B6 /* Build configuration list for PBXNativeTarget "InstaZoom3Tests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +506,7 @@
 				1A0530EF19C4FD460004B7B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
