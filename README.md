@@ -8,4 +8,5 @@ There a few updates that are needed:
 ability to search anything other than pugs.
 Needs a ton of more features.
 
+![alt tag](https://raw.github.com/helloimjames/InstaZoom3/InstaZoom3/Screen Shot 2015-02-19 at 9.44.44 AM.png)
 
